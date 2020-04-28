@@ -17,6 +17,11 @@ app.get('/', function (req, res) {
     });
 });
 
+// Create About page route.
+app.get('/about.html', function (req, res) {
+    res.render('about');
+});
+
 // Set static folder.
 app.use(express.static(path.join(__dirname, 'public')));
 
