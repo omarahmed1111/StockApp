@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Hello</title>
+    <title>Stock Data researcher</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -23,9 +23,9 @@
         <a class="nav-link" href="about.html">About</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+    <form class="form-inline my-2 my-lg-0" action="/" method="POST">
+      <input class="form-control mr-sm-2" type="search" placeholder="LookUp stock quote" aria-label="Search" name="stock_ticker">
+      <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">LookUp</button>
     </form>
   </div>
 </nav>
